@@ -1,0 +1,7 @@
+Nombre y apellido: Pedro Hirschfeld
+DNI: 40288876
+Email: peter_5597@hotmail.com  
+Materia: Taller de Proyectos
+Carrera: Tecnico Universitario en IT
+Fecha de entrega: 25/11/2025
+Informe: Avance 3 – Proyecto en GitHub
