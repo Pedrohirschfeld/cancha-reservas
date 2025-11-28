@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cancha - Reservas (Avance 4)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Reservas Cancha Fútbol 5</h1>
+    <div id="userInfo"></div>
+  </header>
+
+  <main>
+    <section id="authSection">
+      <div id="registerBox" class="card">
+        <h2>Registro</h2>
+        <input id="regNombre" placeholder="Nombre completo" />
+        <input id="regTelefono" placeholder="Teléfono" />
+        <input id="regEmail" placeholder="Correo" />
+        <input id="regPass" type="password" placeholder="Contraseña" />
+        <button id="btnRegister">Crear cuenta</button>
+      </div>
+
+      <div id="loginBox" class="card">
+        <h2>Ingreso</h2>
+        <input id="loginEmail" placeholder="Correo" />
+        <input id="loginPass" type="password" placeholder="Contraseña" />
+        <button id="btnLogin">Ingresar</button>
+      </div>
+    </section>
+
+    <section id="appSection" class="hidden">
+      <div class="card">
+        <h2>Horarios disponibles</h2>
+        <div id="horariosList"></div>
+      </div>
+
+      <div class="card">
+        <h2>Mis reservas</h2>
+        <div id="misReservas"></div>
+      </div>
+
+      <div class="card adminOnly hidden" id="adminBox">
+        <h2>Panel administrador</h2>
+        <input id="newFecha" type="date" />
+        <input id="newHora" placeholder="Hora (ej. 19:00)" />
+        <button id="btnAddHorario">Agregar horario</button>
+      </div>
+
+      <button id="btnLogout" class="logout">Cerrar sesión</button>
+    </section>
+  </main>
+
+  <footer>
+    <small>Avance 4 - Sistema de reservas. Datos guardados en localStorage.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
